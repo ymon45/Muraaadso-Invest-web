@@ -1,0 +1,83 @@
+.tbl{
+    box-shadow: 12px 10px #ff0000;
+    align-self: center;
+    justify-self: center;
+    margin: 50px auto;
+}
+
+.ro{
+    /* background-color: greenyellow; */
+}
+
+.perr{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600 ;
+}
+
+.contsec{
+    margin: 0 auto;
+}
+.cardd-1, .cardd-2, .cardd-3{
+    box-sizing: border-box ;
+    height: 150px;
+        position: relative;
+    box-shadow: 12px 9px #ff0000 ;
+    background-color: white ;
+}
+
+.cardd-1 h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600 ;
+}
+.cardd-2 h2{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600 ;
+}
+.cardd-3 h2{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600 ;
+}
+
+.cardd-1 p{
+        font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600 ;
+    position: absolute;
+    top: 60%;
+}
+.cardd-2 p{
+        font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600 ;
+    position: absolute;
+    top: 60%;
+}
+.cardd-3 p{
+        font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600 ;
+    position: absolute;
+    top: 60%;
+}
+
+.tt{
+    margin: 40px auto;
+}
+.tt h1{
+        font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600 ;
+    text-align: center;
+}
+.tt p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400 ;
+    text-align: center;
+}

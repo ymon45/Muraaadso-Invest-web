@@ -1,0 +1,109 @@
+.doctitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600 ;
+    text-align: center;
+    margin: 100px 0 20px 0;
+}
+.docs{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 1200px;
+    padding: 25px 0 25px 30px;
+}
+.docs h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    text-transform: capitalize ;
+    font-weight: 600 ;
+    text-align: start;
+
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btns a{
+    margin-right: 30px;
+    background-color: orange;
+    color: white;
+    padding: 10px 30px;
+}
+
+.nm{
+    background-color: greenyellow ;
+}
+.dn{
+    background-color: yellow ;
+}
+.ror{
+    background-color: rgb(255, 115, 0) ;
+}
+.docheader{
+    max-width: 1200px;
+    background-color: rgb(20, 25, 27);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    margin: 0 auto ;
+    padding: 15px 0 15px 20px ;
+
+}
+.sideheader{
+    display: flex;
+}
+
+.sideheader .View{
+    margin-right: 80px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 420px)
+{
+    .docheader{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 3px ;
+     }
+        .docheader h3{
+            font-size: 13px;
+            
+        }
+        .sideheader{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .sideheader .View{
+            margin: 10px;
+        }
+
+        .btns a{
+    margin-right: 10px;
+    background-color: orange;
+    color: white;
+    padding: 10px 10px;
+}
+        .docs{
+                padding: 25px 0 25px 10px;
+
+        }
+        .docs h2{
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+
+        }
+        .docs p{
+             font-family: 'Inter', sans-serif;
+            font-size: 12px;
+        }
+
+
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+*, *::after, *::before{
+  marign: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: #f9f8f6;
+}
+
+@media only screen and (max-width: 434px){
+  body{
+    overflow-x: hidden;
+  }
+}

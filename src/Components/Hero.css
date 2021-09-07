@@ -1,0 +1,92 @@
+.vido{
+    max-width: 515px;
+    box-shadow: 13px 10px #ff0000;
+
+}
+.herosec{
+    max-width: 1353px ;
+}
+.getbtn{
+    background-color: #ff0000 ;
+}
+.watchbtn{
+    background-color: none ;
+    border: 2px solid black;
+    box-shadow: 8px 7px #ff0000  ;
+
+}
+.herotxt{
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 700;
+}
+.herotxt span{
+    color: #ff0000;
+    font-weight: 600;
+
+}
+.txth4{
+    color: #ff0000;
+    font-weight: 500;
+     font-family: 'Inter',sans-serif;
+
+}
+.txtp{
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 414px)
+{
+
+        .bbtn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    .watchbtn{
+        padding: 10px 30px;
+    }
+    .getbtn{
+        padding: 10px 30px;
+    }
+
+    .herosec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px){
+    .vido{
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 434px){
+    .vido{
+        display: none;
+    }
+}

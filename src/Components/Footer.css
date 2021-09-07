@@ -1,0 +1,64 @@
+.innp{
+    /* background-color: yellow; */
+    display: flex;
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.inpu{
+    /* background-color: rgb(216, 216, 216); */
+    width: 300px;
+    background-color: none;
+    outline: none;
+    border-bottom: 3px solid #ff0000 ;
+    height: 40px;
+}
+.foter a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.innp button{
+    background-color: #ff0000;
+}
+.subs{
+    max-width: 100%;
+}
+.nvv{
+}
+.con{
+    margin: 0 auto ;
+}
+
+.foter{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 0 auto ;
+    max-width: 1300px;
+}
+.icon{
+    width: 40px;
+}
+.fut{
+    background-color: #110e0e;
+}
+
+@media only screen and (max-width : 420px){
+    .foter{
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        min-width: 100vw;
+    }
+    .subs{
+        background-color: burlywood;
+        /* display: none; */
+    }
+
+    .futer{
+        display: flex;
+        flex-direction:column ;
+    }
+}
+

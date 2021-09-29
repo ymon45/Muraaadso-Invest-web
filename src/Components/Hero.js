@@ -13,8 +13,7 @@ const Hero = () => {
         <br class="inline-block" /> <span>MURAADso</span>
       </h1>
       <h4 class="mb-8 txth4 text-xl">Try investing with Muraadso</h4>
-      <p class="mb-8 txtp leading-relaxed">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, delectus? 
-      <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, eligendi?</p>
+      <p class="mb-8 txtp leading-relaxed">Muraadso.com is the leading eCommerce platform in Somaliland <br /> and Somalia, with More than 5 distribution & Store centers in the <br /> region and 7 more to come next 12 months.</p>
       <div class="flex lg:flex-auto lg:items-center  lg:justify-center bbtn">
         <button class="getbtn inline-flex text-white xs:py-2 lg:py-3 lg:px-11  sm:py-4 sm:px-8 focus:outline-none  text-lg">Get Started</button>
         <button class="watchbtn ml-4 inline-flex  lg:py-3 lg:px-11  sm:py-2 sm:px-8 focus:outline-none text-lg">Watch Video</button>

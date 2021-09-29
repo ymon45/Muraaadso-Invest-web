@@ -7,23 +7,27 @@ const About = () => {
             <h1 className="text-center aboutt">Why Invest In Muraadso</h1>
      <section class=" body-font">
   <div class="container max-w-full mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-      <img class="object-cover object-center imge " alt="hero" src="/images/About.jpg" />
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-6/6 md:mb-0 mb-10">
+      <img class="object-center  imge " alt="hero" src="/images/About.jpg" />
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center lg:text-left">
       <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium">Why Invest With Us</h2>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <p class="mb-4 leading-relaxed aboutp">Muraadso.com is the leading eCommerce platform in Somaliland and Somalia, with More than 5 distribution & Store centers in the region and 7 more to come next 12 months, we are the fastest growing tech startup in Somaliland and Somalia with over 300% Year-on-Year growth rate for the last three years.</p> <p className="mb-4 leading-relaxed aboutp">
+        
+        Muraadso with its strong innovation and efficiency generated over 60% annual return on investment ROI, muraadso is still growing fast and has a lot of earning potential for the current and the new investors,
+        </p> 
       <h3 className="">Read More</h3>
     </div>
   </div>
 </section>
+    
 
 {/* ICONS */}
 
 <section class="iconss"   >
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4 text-center justify-around">
-      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+      <div class="p-4 md:w-1/4 sm:w-2/2 w-full icco">
         <div class=" px-4 py-6 rounded-lg">
           <svg className="inline-block mb-3 usersicon" viewBox="0 0 88 84" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M58.6841 32.0529H81.4449C82.435 32.0529 83.3877 31.6518 84.0583 30.9522C84.7294 30.252 85.0664 29.3075 84.9826 28.3603C84.6663 24.7802 82.9755 21.4615 80.2218 19.0155C79.3913 18.278 78.4862 17.6398 77.5239 17.1075C79.3817 15.2911 80.5293 12.8015 80.5293 10.059C80.5293 4.51254 75.8348 0 70.0645 0C64.294 0 59.5994 4.51254 59.5994 10.0592C59.5994 12.8016 60.7471 15.2913 62.605 17.1076C61.6429 17.64 60.7376 18.2782 59.9074 19.0157C57.1534 21.4615 55.4627 24.7803 55.1466 28.3605C55.0629 29.3075 55.3997 30.2523 56.0708 30.9524C56.7414 31.6518 57.6939 32.0529 58.6841 32.0529ZM64.7342 10.0592C64.7342 7.22646 67.1253 4.92188 70.0645 4.92188C73.0034 4.92188 75.3945 7.22646 75.3945 10.0592C75.3945 12.892 73.0034 15.1965 70.0645 15.1965C67.1253 15.1965 64.7342 12.8919 64.7342 10.0592ZM63.3973 22.6259C65.2179 21.0089 67.5857 20.1183 70.0645 20.1183C72.5432 20.1183 74.9108 21.0089 76.7315 22.6259C78.1139 23.8535 79.0894 25.4148 79.5671 27.131H60.5619C61.0396 25.4148 62.015 23.8537 63.3973 22.6259Z" fill="#272833"/>
@@ -33,11 +37,11 @@ const About = () => {
 <path d="M34.8416 51.9563L24.6183 61.7567L20.5182 57.8261C19.5155 56.8652 17.89 56.8653 16.8872 57.8259C15.8847 58.7868 15.8845 60.3451 16.887 61.3064L22.8028 66.9773C23.3043 67.4579 23.9614 67.6982 24.6183 67.6982C25.2752 67.6982 25.9325 67.4579 26.4336 66.9775L26.4338 66.9773L38.4726 55.4364C39.4751 54.4753 39.4749 52.917 38.4725 51.9559C37.4696 50.995 35.8441 50.9952 34.8416 51.9563Z" fill="#FF0000"/>
 </svg>
 
-          <h2 class="title-font font-medium text-xl">1k+ Customers</h2>
+          <h2 class="title-font font-medium text-xl">One of the highest Returns in the region</h2>
           <p class="leading-relaxed"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, ad.</p>
         </div>
       </div>
-      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full icco">
         <div class=" px-4 py-6 rounded-lg">
          <svg className="inline-block w-12 h-12 mb-3 usersicon"  viewBox="0 0 89 84" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
@@ -51,11 +55,11 @@ const About = () => {
 </defs>
 </svg>
 
-          <h2 class="title-font font-medium text-xl">Highly Increasing</h2>
+          <h2 class="title-font font-medium text-xl">Quarterly profit distribution</h2>
           <p class="leading-relaxed"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, ad.</p>
         </div>
       </div>
-      <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+      <div class="p-4 md:w-1/4 sm:w-1/2 w-full icco">
         <div class=" px-4 py-6 rounded-lg">
           <svg className="inline-block w-12 h-12 mb-3 usersicon" width="89" height="84" viewBox="0 0 89 84" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M86.5002 50.0494C85.7012 49.3723 84.6709 48.9994 83.6044 49.0015C82.5379 49.0035 81.5093 49.3804 80.7131 50.0606L67.087 61.7129C65.9619 62.6749 64.6707 63.4418 63.2713 63.9795L52.8681 67.9933C52.6063 68.0944 52.3191 68.1191 52.0427 68.0643C51.7663 68.0095 51.5129 67.8777 51.3144 67.6853L49.8336 66.2615L59.1167 62.4997C59.1783 62.4741 59.2383 62.4451 59.2964 62.4129C60.6904 61.6143 61.8533 60.4932 62.6784 59.1523C63.1164 58.461 63.3353 57.6626 63.3083 56.8542C63.2814 56.0458 63.0097 55.2624 62.5265 54.5994C62.0572 53.935 61.3961 53.4161 60.624 53.1063C59.8519 52.7965 59.0023 52.7092 58.1792 52.855L42.5336 55.515C40.5104 55.8583 38.5762 56.5753 36.8384 57.6263L31.1433 61.0605C29.0692 62.3136 26.6673 62.9781 24.2156 62.9771H15.3078V61.5995C15.3078 61.2282 15.154 60.8721 14.8801 60.6095C14.6062 60.347 14.2348 60.1995 13.8475 60.1995H2.16513C1.77784 60.1995 1.4064 60.347 1.13255 60.6095C0.858686 60.8721 0.704834 61.2282 0.704834 61.5995V82.5995C0.704834 82.9708 0.858686 83.3269 1.13255 83.5895C1.4064 83.852 1.77784 83.9995 2.16513 83.9995H13.8475C14.2348 83.9995 14.6062 83.852 14.8801 83.5895C15.154 83.3269 15.3078 82.9708 15.3078 82.5995V81.0595L25.7606 80.0501C27.4033 79.8891 29.063 80.0316 30.6497 80.4701L36.1988 81.9975C37.6277 82.3922 39.1073 82.5925 40.5943 82.5925H48.4931C50.7773 82.5956 53.0351 82.1241 55.1111 81.2107L69.4556 74.9247C71.727 73.9255 73.724 72.4323 75.2881 70.5637L87.3633 56.1227C88.0703 55.2795 88.4116 54.2077 88.3161 53.1297C88.2207 52.0518 87.6959 51.0504 86.8507 50.3336L86.5002 50.0494ZM12.3872 81.1995H3.62543V62.9995H12.3872V81.1995ZM85.0794 54.3782L73.0042 68.8207C71.7246 70.348 70.0917 71.5689 68.2348 72.3865L53.8918 78.6711C52.1968 79.4168 50.3536 79.8017 48.4887 79.7995H40.5885C39.3746 79.8 38.1668 79.6365 37.0005 79.3137L31.4514 77.7863C29.5083 77.2497 27.4761 77.0739 25.4642 77.2683L15.3034 78.2483V65.7771H24.2112C27.2118 65.7778 30.1515 64.9653 32.6912 63.4335L38.3864 59.9979C39.8069 59.1392 41.3881 58.5534 43.0418 58.2731L58.6859 55.613C58.9578 55.5642 59.2386 55.593 59.4935 55.6958C59.7484 55.7985 59.9663 55.9708 60.12 56.1913C60.284 56.4154 60.3758 56.6808 60.3842 56.9545C60.3925 57.2283 60.3169 57.4983 60.1667 57.7313C59.6071 58.6452 58.8231 59.4142 57.8828 59.9713L46.7042 64.4891C46.4842 64.5782 46.2903 64.7178 46.1396 64.8955C45.9889 65.0732 45.886 65.2836 45.8399 65.5083C45.7938 65.733 45.8059 65.9651 45.8751 66.1843C45.9443 66.4035 46.0685 66.603 46.2369 66.7655L49.2422 69.6649C49.8455 70.248 50.6148 70.6475 51.4538 70.8134C52.2929 70.9792 53.1643 70.9041 53.959 70.5973L64.3621 66.5835C66.0763 65.923 67.6575 64.9817 69.0351 63.8017L82.6597 52.1494C82.9228 51.9258 83.2623 51.8022 83.614 51.8022C83.9656 51.8022 84.3051 51.9258 84.5683 52.1494L84.9114 52.4406C85.1932 52.6814 85.3677 53.0167 85.399 53.3773C85.4302 53.7379 85.3158 54.0962 85.0794 54.3782Z" fill="black"/>
@@ -69,13 +73,14 @@ const About = () => {
 <path d="M41.0091 29.7783L39.2567 32.0183L43.0301 34.7203C43.1925 34.8365 43.3783 34.919 43.5757 34.9626C43.7731 35.0062 43.9778 35.01 44.1768 34.9737C44.3758 34.9373 44.5648 34.8617 44.7316 34.7515C44.8985 34.6414 45.0397 34.4992 45.1461 34.3339L50.8047 25.5461L48.3222 24.0747L43.5033 31.5619L41.0091 29.7783Z" fill="#FF0000"/>
 </svg>
 
-          <h2 class="title-font font-medium text-xl">Trust Worthy</h2>
+          <h2 class="title-font font-medium text-xl">Leading ecommerce company</h2>
           <p class="leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, ad.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
             
         </div>
     )

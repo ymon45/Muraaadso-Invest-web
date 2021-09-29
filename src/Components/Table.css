@@ -1,0 +1,21 @@
+@media only screen and (max-width: 414px) and (min-width: 375px){
+    #tble{
+        width: 98% !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 740px){
+    .tb{
+        background-color: #290303;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 10px;
+        width: 100%;
+    }
+    #tble{
+        background-color: aqua;
+        width: 99% !important;
+    }
+}

@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 
 
+.sec2h1{
+    margin-right: 20px ;
+}
+
+
 
 .imge{
     box-shadow: 13px 10px #ff0000;
+    height: 400px;
+    width: 500px;
 }
 
 .aboutt{
@@ -18,17 +25,35 @@
 .iconss{
     max-width: 1353px;
 }
-/* .aboutt::after{
-    content: '';
-    width: 320px;
-    height: 5px;
-    background: #ff0000 ;
-    position: absolute;
-    top: 100%;
-    left: 340px;
 
-} */
 .usersicon{
     width: 80px;
     height: 80px;
+}
+
+
+@media only screen and (max-width: 414px) and (min-width: 375px)  {
+
+    .aboutt{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .imge{
+        max-width: 370px ;
+        max-height: 340px;
+    }
+    .aboutp{
+        text-align: center;
+        width: 370px;
+        font-size: 19px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) and (min-width: 740px)  {
+
+    .icco{
+        width: 50%;
+    }
 }

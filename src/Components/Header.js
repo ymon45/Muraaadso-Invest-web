@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-scroll'
 
 const Header = () => {
     return (
@@ -18,16 +19,16 @@ const Header = () => {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <Link class="nav-link" to="about" smooth={true} duration={100}>About</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">News</a>
+          <Link class="nav-link" to="news" smooth={true} duration={100}>News</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Perfomance</a>
+          <Link class="nav-link" to="perfomance" smooth={true} duration={100}>Perfomance</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Document</a>
+          <Link class="nav-link" to="document" smooth={true} duration={100}>Document</Link>
         </li>
       </ul>
     </div>

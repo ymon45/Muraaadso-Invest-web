@@ -2,7 +2,7 @@ import React from 'react'
 import './News.css'
 const News = () => {
     return (
-        <div classNameName="container">
+        <div classNameName="container" id="news">
             <section className="container newsec ">
                 <div className="titletxt ">
                 <h1>Invest & News</h1>

@@ -6,6 +6,7 @@ const Hero = () => {
     return (
         <div className="container herosec ">
             <section class="body-font ">
+
       <div class="container mx-auto flex py-24 md:flex-row flex-col items-center ">
       <div class="heeroo lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left  mb-16 md:mb-0 ">
       <h1 class="herotxt title-font sm:text-2xl text-3xl mb-4 font-medium">INVEST WITH

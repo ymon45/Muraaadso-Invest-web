@@ -26,6 +26,7 @@
   font-family: 'Inter', sans-serif ;
   font-weight: 400;
   margin-left: 20px ;
+  cursor: pointer;
 }
 .nav-link:hover{
   color: #ff0000;

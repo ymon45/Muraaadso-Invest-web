@@ -7,7 +7,7 @@ const Docs = ({data}) => {
     return (
         <> 
                 <h1 className="doctitle">DOCUMENTS</h1>
-                <div className="docheader">
+                <div className="docheader" id="document">
                     <h3 className="docname">Doccument Name</h3>
                     <h3 className="docdesc">Document Description</h3>
                     <div className="sideheader">

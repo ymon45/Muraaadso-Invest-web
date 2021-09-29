@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="container py-10 aboutsec ">
+        <div className="container py-10 aboutsec " id="about">
             <h1 className="text-center aboutt">Why Invest In Muraadso</h1>
      <section class=" body-font">
   <div class="container max-w-full mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
